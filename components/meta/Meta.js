@@ -1,9 +1,9 @@
 import Head from "next/head";
 
 export default function Meta({ title, keywords, description }) {
-    const homepage = "https://atsresume.vercel.app/";
-    const logo = "https://atsresume.vercel.app/assets/logo.png";
-    const fevicon = "https://atsresume.vercel.app/assets/favicon.ico";
+    const homepage = "https://insighttroveresume.vercel.app/";
+    const logo = "https://insighttroveresume.vercel.app/assets/logo.png";
+    const fevicon = "https://insighttroveresume.vercel.app/assets/favicon.ico";
 
     function isiteJsonLd() {
         return {
@@ -19,7 +19,7 @@ export default function Meta({ title, keywords, description }) {
                 },
                 "image": ${logo},
                 "description": ${description},
-                "founder": "Saurav Hathi",
+                "founder": "upadrastaharsha",
                 "foundingDate": "2023",
                 "foundingLocation": "IN",
                 "email": "xyz@gmail.com",
@@ -29,8 +29,8 @@ export default function Meta({ title, keywords, description }) {
                 "mainEntityOfPage": ${homepage},
                 "knowsAbout": ${keywords},
                 "knowsLanguage": "English",
-                "memberOf": "Saurav Hathi",
-                "owns": "Saurav Hathi",
+                "memberOf": "upadrastaharsha",
+                "owns": "upadrastaharsha",
                 "publishingPrinciples": ${homepage},
                 "slogan": "Get hired with an ATS-optimized resume"
             }`
@@ -47,7 +47,7 @@ export default function Meta({ title, keywords, description }) {
             <link rel="icon" href={fevicon} />
             <title>{title}</title>
             <meta type="copyright" content="ATSResume" />
-            <meta type="author" content="Saurav Hathi" />
+            <meta type="author" content="upadrasta harsha" />
             {/* Open Graph */}
             <meta property="og:type" content="website" />
             <meta property="og:url" content={homepage} />
