@@ -28,11 +28,11 @@
         @apply focus:outline-none;
     }
 
-    .ul-padding{
+    .ul-padding {
         padding-inline-start: 0.9rem;
     }
 
-    .ul-padding-none{
+    .ul-padding-none {
         padding-inline-start: 0;
     }
 }
